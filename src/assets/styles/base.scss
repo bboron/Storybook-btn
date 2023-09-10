@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+//* Browser reset
+@import './reset';
+
+//* Variables
+@import 'variables/colors.module';
+@import 'variables/breakpoints.module';
+
+//* Mixins
+@import './mixins/flex';
+@import './mixins/scrollbar';
+@import './mixins/media';
+@import './mixins/font';
+
+//* Function
+@import './functions/color';

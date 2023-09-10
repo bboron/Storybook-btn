@@ -1,0 +1,35 @@
+@import '../../assets/styles/base';
+.wrapper {
+  @include flex(row, center, center, nowrap);
+  gap: 6px;
+  height: 80vh;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #009578;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem;
+  color: white;
+}
+.secondary {
+  background: none;
+  border: 1px solid #009578;
+  color: black;
+}
+.btn-small {
+  padding: 0rem 1rem;
+}
+.btn-normal {
+  padding: 0.5rem 1rem;
+}
+.btn-large {
+  padding: 1rem 1rem;
+}

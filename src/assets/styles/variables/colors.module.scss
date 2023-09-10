@@ -1,0 +1,45 @@
+$colors: (
+  white-100: rgba(255, 255, 255, 1),
+  white-80: rgba(255, 255, 255, 0.8),
+  white-60: rgba(255, 255, 255, 0.6),
+  white-40: rgba(255, 255, 255, 0.4),
+  black-100: rgba(25, 22, 29, 1),
+  black-50: rgba(25, 22, 29, 0.5),
+  black-6: rgba(25, 22, 29, 0.06),
+  grey-600: #2d2a32,
+  grey-500: #53575a,
+  grey-400: #86888a,
+  grey-300: #ebebeb,
+  grey-200: #f2f2f2,
+  grey-100: #fafafa,
+  red-300: #b83134,
+  red-200: #d5393c,
+  red-100: #fcf2f2,
+  orange-300: #c9772b,
+  orange-200: #e48731,
+  orange-100: #fcf7ed,
+  yellow-300: #e5b141,
+  yellow-200: #f7bf46,
+  yellow-100: #fef5e1,
+  green-300: #33704e,
+  green-200: #3e875e,
+  green-100: #f1f8f4,
+  lightblue-300: #ebf1fc,
+  lightblue-200: #f2f6fd,
+  lightblue-100: #f9fbfe,
+  blue-400: #3C86F5,
+  blue-300: #234c90,
+  blue-200: #2e61b4,
+  blue-100: #eaeff7,
+  purple-300: #9060de,
+  purple-200: #a56eff,
+  purple-100: #f6f0ff,
+  blue-moon:
+    'radial-gradient(116.01% 64.3% at 17.78% 99.56%, rgba(90, 126, 218, 0.5) 0%,rgba(81, 253, 212, 0) 100%), linear-gradient(90deg,#c9d6ff 0%,#e9e4f0 100%,)',
+);
+
+:export {
+  @each $name, $color in $colors {
+    #{$name}: #{$color};
+  }
+}

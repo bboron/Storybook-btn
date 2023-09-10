@@ -1,0 +1,45 @@
+@import '../../assets/styles/base';
+
+.typographyElement {
+  color: color('black-100');
+}
+
+.h1 {
+  @include font('Inter', 32px, 700, 42px);
+}
+
+.h2 {
+  @include font('Inter', 28px, 700, 38px);
+}
+
+.h3 {
+  @include font('Inter', 24px, 700, 34px);
+}
+
+.h4 {
+  @include font('Inter', 20px, 700, 30px);
+}
+
+.h5 {
+  @include font('Inter', 18px, 700, 28px);
+}
+
+.h6 {
+  @include font('Inter', 16px, 700, 26px);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.regular {
+  font-weight: 400;
+}

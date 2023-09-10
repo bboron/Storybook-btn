@@ -1,0 +1,6 @@
+@mixin font($fontFamily: 'Inter', $fontSize: inherit, $fontWeight: inherit, $lineHeight: inherit) {
+  font-family: $fontFamily, sans-serif;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+}
